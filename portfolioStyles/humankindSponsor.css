@@ -1029,7 +1029,7 @@ h4{
     }
 
     .button-three:hover{
-        font-size: 3opx;
+        font-size: 30px;
         color: white;
     }
 
@@ -1381,21 +1381,21 @@ h4{
         width: 50px;
         position: absolute;
         left: 16%;
-        top: 45%;
+        top: 47%;
     }
 
     .mail-icon{
         width: 50px;
         position: absolute;
         left: 16%;
-        top: 55%;
+        top: 57%;
     }
 
     .twitter-icon{
         width: 50px;
         position: absolute;
         left: 16%;
-        top: 65%;
+        top: 67%;
     }
 
     .contact h4{
@@ -1407,19 +1407,19 @@ h4{
     .phone-number{
         position: absolute;
         left: 30%;
-        top: 43%;
+        top: 45%;
     }
 
     .email{
         position: absolute;
         left: 30%;
-        top: 53%;
+        top: 55%;
     }
 
     .twitter{
         position: absolute;
         left: 30%;
-        top: 63%;
+        top: 65%;
     }
     
     
