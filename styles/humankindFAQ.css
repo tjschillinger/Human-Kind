@@ -1,55 +1,24 @@
-*, *::before, *::after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-body, html {
-   height:100%
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-.column {
-         float: left;
-     }
-
-.column.full { width: 100%;}
-.column.two-thirds { width: 66.7%; }
-.column.half { width: 50%;}
-.column.third { width: 33.3%; }
-.column.fourth { width: 25%; }
-.column.three-fourths { width: 75%; }
-.column.flow-opposite { float: right; }
-.column.tenth { width: 10%; }
-.column.nine-tenth { width: 90%; }
-
 p{
     text-align: left;
     line-height: 29px;
     font-size: 1.2rem;
     font-weight: normal;
-    Font-family: Ubuntu, Helvetica, Arial, sans-serif;
 }
 
 h3{
     font-size: 1.7rem;
-    Font-family: 'Arima Madurai', Helvetica, Arial, sans-serif;
+
 }
 
 h1{
     font-size: 2.3rem;
     color: white;
     margin: 0%;
-    Font-family: 'Arima Madurai', Helvetica, Arial, sans-serif; 
+
 }
 
 h2{
     font-size: 2rem;
-    Font-family: 'Arima Madurai', Helvetica, Arial, sans-serif;
     color: #438496;
     text-align: center;
     margin-top: 5%;
@@ -58,65 +27,7 @@ h2{
 h4{
     font-size: 1.5em;
     margin-bottom:0%;
-    Font-family: Ubuntu, Helvetica, Arial, sans-serif;
     font-weight: normal;
-}
-
-.hidden{
-    display: none;
-}
-
-.nav-bar h2:hover{
-    font-weight: bolder;
-}
-
-.nav-bar{
-    background-color: #438496;
-    background: -webkit-linear-gradient(left top, #438496, rgba(67, 132, 150, .7));
-    
-    text-align: center;
-    color: white;
-}
-
-.nav-bar h2{
-    color: white;
-    font-size: 1.3rem;
-    font-weight: normal;
-}
-
-.logo{
-    text-align: left;
-    height: 70px;
-    display: table;
-}
-
-.sponsor{
-    height: 70px;
-    display: table;
-}
-
-.FAQ {
-    height: 70px;
-    display: table;
-}
-
-.sponsor h2{
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.FAQ h2{
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.logo img{
-    height: 50px;
-    width: auto;
-    display: table-cell;
-    vertical-align: middle;
-    margin-left: 10%;
-    margin-top: 2%;
 }
 
 .hero-image{
@@ -273,54 +184,6 @@ p:hover {
     cursor: pointer;
 }
 
-.footer{
-    background-color: #438496;
-    background: -webkit-linear-gradient(left top, #438496, rgba(67, 132, 150, .7));
-    
-    text-align: center;
-    color: white;
-}
-
-.footer h2{
-    color: white;
-    font-size: 1.3rem;
-    font-weight: normal;
-}
-.footer p{
-    font-size: .7rem;
-    text-align:center; 
-    vertical-align: middle;
-    display: table-cell; 
-}
-
-.copyright{
-    height:60px;  
-    display: table;
-}
-
-.faq{
-    height:60px;  
-    display: table;
-}
-
-.faq h2{
-    vertical-align: middle;
-    display: table-cell; 
-}
-
-.icon{
-    height:60px;  
-    display: table;
-}
-
-.icon i{
-    text-align:center; 
-    vertical-align: middle;
-    display: table-cell; 
-    font-size: 36px;
-}
-
-
 
 button {
     background-color: #D6665A;
@@ -342,39 +205,39 @@ button:hover {
         padding-right: 10%;
         padding-left: 10%;
     }
-    
+
 }
 
 @media (max-width: 1024px) {
     .hero h1{
         font-size: 36px;
     }
-    
+
     .question h4{
         font-size: 1.2em;
     }
-    
+
     .answer h4{
         font-size: 1.2em;
     }
-    
+
     .container{
         padding-right: 10%;
         padding-left: 10%;
     }
-    
+
     p{
         line-height: 24px;
         font-size: 1.0rem;
     }
-    
+
     .fa.fa-send{
         padding-top: 2%;
         color: white;
         font-size: 36px;
         text-align: right;
     }
-    
+
     button {
         font-size: 30px;
         padding: 15px;
@@ -387,7 +250,7 @@ button:hover {
         padding-right: 5%;
         padding-left: 5%;
     }
-    
+
     .hero h1{
         font-size: 28px;
         line-height: 32px;
@@ -398,35 +261,35 @@ button:hover {
     .fa.fa-send{
         display: none;
     }
-    
+
     button {
         padding: 15px 5px;
         height: 70px;
     }
-    
+
     .question h4{
         font-size: 1em;
     }
-        
+
     p{
         line-height: 20px;
         font-size: 1rem;
     }
-    
+
     .answer h4{
         font-size: 1em;
     }
-    
+
     .container{
         padding-right: 2%;
         padding-left: 2%;
     }
-    
+
     input[type=text] {
         font-size: 1em;
         padding: 5px 20px;
     }
-    
+
     .sponsor h2{
         font-size: 1em;
     }
@@ -438,7 +301,7 @@ button:hover {
     .logo img{
         height: 50px;
     }
-    
+
     .footer p{
         font-size: .4rem;
         line-height: .6rem;
@@ -447,12 +310,12 @@ button:hover {
 }
 
 @media (max-width: 400px) {
-    
+
     .hero h1{
         padding-left: 10px;
         padding-right: 10px;
     }
-    
+
     .sponsor h2{
         font-size: .6rem;
     }
@@ -460,13 +323,13 @@ button:hover {
     .FAQ h2{
         font-size: .6em;
     }
-    
+
     .logo img{
         height: 30px;
         margin-top: 10%;
         margin-left: 5%;
     }
-    
+
     .logo{
         text-align: left;
         height: 50px;
@@ -482,23 +345,23 @@ button:hover {
         height: 50px;
         display: table;
     }
-    
+
     .footer p{
         font-size: .2rem;
         line-height: .7rem;
     }
-    
+
     .icon i{
-        text-align:center; 
+        text-align:center;
         vertical-align: middle;
-        display: table-cell; 
+        display: table-cell;
         font-size: 24px;
     }
-    
+
     .faq h2{
-       font-size: 18px;  
+       font-size: 18px;
     }
-    
+
     button {
         font-size: 24px;
         padding-left: 8px;
@@ -506,18 +369,18 @@ button:hover {
         height: 50px;
         padding-top: 9px;
     }
-    
+
     input[type=text] {
         font-size: 1em;
         padding: 3px 20px;
     }
-    
+
     .hero{
         height: 100px;
     }
-    
+
     .question-box{
         height: 50px;
     }
-    
+
 }
