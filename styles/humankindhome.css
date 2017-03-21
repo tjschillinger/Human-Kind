@@ -5,8 +5,25 @@
          padding-right: 1rem;
 }
 
+.nav-bar.column.full{
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
 
+.FAQ.column.third{
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
 
+.logo.column.third{
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+.sponsor.column.third{
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
 
 .container{
     padding-right: 10%;
