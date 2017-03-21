@@ -46,7 +46,7 @@ h1{
     font-size: 2.3rem;
     color: white;
     margin: 0%;
-    Font-family: 'Arima Madurai', Helvetica, Arial, sans-serif; 
+    Font-family: 'Arima Madurai', Helvetica, Arial, sans-serif;
 }
 
 h2{
@@ -71,7 +71,7 @@ h4{
 .nav-bar{
     background-color: #438496;
     background: -webkit-linear-gradient(left top, #438496, rgba(67, 132, 150, .7));
-    
+
     text-align: center;
     color: white;
 }
@@ -119,13 +119,13 @@ h4{
     vertical-align: middle;
     margin-top: 2%;
     margin-left: 10%;
-    
+
 }
 
 .hero{
     height: 75%;
     position: relative;
-    background-image: url(../images/Sponsor%20Hero%20Background.png);
+    background-image: url(../images/Sponsor_Hero_Background.png);
     background-size: 100% 100%;
 }
 
@@ -136,7 +136,7 @@ h4{
 .phone-image{
     height: 550px;
     float: right;
-    margin-top: 15%;  
+    margin-top: 15%;
 }
 
 .hero h3{
@@ -169,12 +169,12 @@ h4{
 }
 
 .feature p{
-  padding-right: 10%;  
+  padding-right: 10%;
 }
 
 .join{
     height: 100%;
-    background-image: url(../images/Want%20to%20Join%20Background.png);
+    background-image: url(../images/Want_to_Join_Background.png);
     background-size: 100% 100%;
     margin-top: 5%;
     position: relative;
@@ -447,7 +447,7 @@ h4{
 .footer{
     background-color: #438496;
     background: -webkit-linear-gradient(left top, #438496, rgba(67, 132, 150, .7));
-    
+
     text-align: center;
     color: white;
 }
@@ -459,35 +459,35 @@ h4{
 }
 .footer p{
     font-size: .7rem;
-    text-align:center; 
+    text-align:center;
     vertical-align: middle;
-    display: table-cell; 
+    display: table-cell;
 }
 
 .copyright{
-    height:60px;  
+    height:60px;
     display: table;
 }
 
 .faq{
-    height:60px;  
+    height:60px;
     display: table;
 }
 
 .faq h2{
     vertical-align: middle;
-    display: table-cell; 
+    display: table-cell;
 }
 
 .icon{
-    height:60px;  
+    height:60px;
     display: table;
 }
 
 .icon i{
-    text-align:center; 
+    text-align:center;
     vertical-align: middle;
-    display: table-cell; 
+    display: table-cell;
     font-size: 36px;
 }
 
@@ -572,7 +572,7 @@ h4{
         left: 55%;
         top: 56%;
     }
-    
+
     .first-checkmark img{
         width: 35px;
         margin-top: 150%;
@@ -584,7 +584,7 @@ h4{
         padding-right: 10%;
         line-height: 1.2;
     }
-    
+
     .paper img{
         float: right;
         height: 100%;
@@ -625,20 +625,20 @@ h4{
         padding-right: 5%;
         line-height: 1.5;
     }
-    
+
     .hero p{
         padding-right: 20%;
     }
-    
+
     .container{
         padding-left: 10%;
         padding-right: 5%;
     }
-    
+
     .feature img{
         margin-top: 30%;
         width:75px;
-    }   
+    }
 
    .feature h4{
        margin-top: 2%;
@@ -646,18 +646,18 @@ h4{
     }
 
     .feature p{
-        padding-right: 10%; 
+        padding-right: 10%;
         font-size: 1rem;
         line-height: 1.5;
     }
-    
+
     .person-one{
-        height: 90%;  
+        height: 90%;
         padding-left: 5%;
         padding-bottom: 20%;
         padding-top: 10%;
     }
-    
+
     .others{
         height: 700px;
         background-color: rgba(40,109,168, .7);
@@ -667,7 +667,7 @@ h4{
 
     .center-text h1{
         font-size: 36px;
-        
+
     }
 
     .person-box{
@@ -680,17 +680,17 @@ h4{
         color: white;
         font-size: 28px;
     }
-    
+
     .testimony p{
         font-size: 18px;
         line-height: 24px;
         padding-right: 30%;
     }
-    
+
 }
 
 @media (max-width: 1020px) {
-    
+
     .testimonial-section{
         position: absolute;;
         height: 400px;
@@ -762,19 +762,19 @@ h4{
         width: 40px;
         padding-top: 3%;
     }
-    
+
     .center-text{
         padding-left: 10%;
         padding-right: 10%;
     }
-    
+
     .person-one{
-        height: 75%;  
+        height: 75%;
         padding-left: 5%;
         padding-bottom: 20%;
         padding-top: 10%;
     }
-    
+
     .others{
         height: 600px;
         background-color: rgba(40,109,168, .7);
@@ -785,7 +785,7 @@ h4{
     .center-text h1{
         font-size: 32px;
         margin-bottom: 0%;
-        
+
     }
 
     .person-box{
@@ -799,13 +799,13 @@ h4{
         font-size: 28px;
         margin-bottom: 0%;
     }
-    
+
     .testimony p{
         font-size: 16px;
         line-height: 20px;
         padding-right: 30%;
     }
-    
+
     .contact h3{
         left: 12%;
         top: 25%;
@@ -861,7 +861,7 @@ h4{
         left: 62%;
         top: 58.5%;
     }
-    
+
     .first-checkmark img{
         width: 25px;
         margin-top: 155%;
@@ -887,7 +887,7 @@ h4{
         line-height: 1.5;
         font-size: 20px;
     }
-    
+
     .paper img{
         float: right;
         height: 100%;
@@ -936,30 +936,30 @@ h4{
         line-height: 1.4;
         margin-top: 0%;
     }
-    
+
     .hero h3{
         line-height: 1.2;
     }
-    
+
     .phone-image{
         height: 450px;
         float: right;
         margin-top: 15%;
     }
-    
+
     .hero{
         height: 60%;
     }
-    
+
     .container{
         padding-left: 3%;
         padding-right: 0%;
     }
-    
+
     .feature img{
         margin-top: 30%;
         width:50px;
-    }   
+    }
 
    .feature h4{
        margin-top: 2%;
@@ -967,7 +967,7 @@ h4{
     }
 
     .feature p{
-        padding-right: 10%; 
+        padding-right: 10%;
         font-size: .9rem;
         line-height: 1.5;
     }
@@ -975,18 +975,18 @@ h4{
 }
 
 @media (max-width: 830px) {
-    
+
     .others{
         height: 700px;
         background-color: rgba(40,109,168, .7);
         position: relative;
     }
-    
+
     .center-text{
         padding-left: 5%;
         padding-right: 5%;
     }
-    
+
     .testimonial-section{
         position: absolute;;
         height: 400px;
@@ -1058,7 +1058,7 @@ h4{
         width: 40px;
         padding-top: 3%;
     }
-    
+
     .center-text h1{
         font-size: 24px;
         margin-bottom: 0%;
@@ -1078,7 +1078,7 @@ h4{
         margin-bottom: 0%;
         margin-top: 0%;
     }
-    
+
     .testimony p{
         font-size: 13px;
         line-height: 18px;
@@ -1086,25 +1086,25 @@ h4{
         text-align: justify;
         padding-left: 5%;
     }
-    
+
     .subtitle p{
         text-align: center;
         margin-bottom: 0%;
         font-size: 16px;
     }
-    
+
     .person-one{
-        height: 300px;  
+        height: 300px;
         padding-left: 0%;
         padding-bottom: 0%;
         padding-top: 0%;
     }
-    
+
     .person-box.column.two-fifths{
         width: 100%;
         height: 300px;
-    } 
-    
+    }
+
     .column.three-fifths{
         width: 100%;
         text-align: center;
@@ -1112,7 +1112,7 @@ h4{
 }
 
 @media (max-width: 790px) {
-    
+
     .first-checkmark img{
         width: 20px;
         margin-top: 60%;
@@ -1140,49 +1140,49 @@ h4{
         font-size: 16px;
         padding-top: 3px;
     }
-    
+
     .first-feature.column.nine-tenth{
         width: 40%;
         height: 70px;
     }
-    
+
     .following-feature.column.nine-tenth {
         width: 45%;
         height: 70px;
     }
-    
+
     .feature-right.column.half{
         width: 100%;
     }
-    
+
     .checkmark.column.tenth {
         width: 5%;
     }
-    
+
     .feature-two{
         margin-top: 5.5%;
     }
-    
+
     .mark-two{
         margin-top: 5.5%;
     }
-    
+
     .paper{
         height: 60%;
     }
-    
+
     .mark-three.checkmark.column.tenth {
         padding-left: 5%;
-    } 
-    
+    }
+
     .feature-three{
         padding-left: 5%;
     }
-    
+
     .paper.column.half{
         width: 100%;
         text-align: center;
-    } 
+    }
     .paper img{
         float: none;
         height: 100%;
@@ -1229,25 +1229,25 @@ h4{
     .phone-box.column.third{
         width: 40%;
     }
-    
+
     .hero-text.column.two-thirds{
         width: 60%;
     }
-    
+
     .hero p{
         padding-right: 10%;
         font-size: .9rem;
     }
-    
+
     .hero h3{
         font-size: 1.5rem;
         margin-top: 15%;
     }
-    
+
     .feature img{
         margin-top: 30%;
         width:50px;
-    }   
+    }
 
    .feature h4{
        margin-top: 2%;
@@ -1255,13 +1255,13 @@ h4{
     }
 
     .feature p{
-        padding-right: 10%; 
+        padding-right: 10%;
         font-size: .8rem;
         line-height: 1.2;
     }
-    
-    
-    
+
+
+
     .contact{
         height: 90%;
         text-align:center;
@@ -1293,7 +1293,7 @@ h4{
         margin-left:-200px;
         left:50%;
         top: 20%;
-        
+
 
         font-size: 18px;
         line-height: 24px;
@@ -1343,7 +1343,7 @@ h4{
         left: 30%;
         top: 62%;
     }
-    
+
 }
 
 
@@ -1371,7 +1371,7 @@ h4{
         margin-left:-175px;
         left:50%;
         top: 20%;
-        
+
 
         font-size: 18px;
         line-height: 24px;
@@ -1421,22 +1421,22 @@ h4{
         left: 30%;
         top: 65%;
     }
-    
-    
-    
+
+
+
     .feature.column.third{
         width: 100%;
     }
-    
+
     .container{
         padding-left: 10%;
         padding-right: 10%;
     }
-    
+
     .feature img{
         margin-top: 5%;
         width:50px;
-    }   
+    }
 
    .feature h4{
        margin-top: 2%;
@@ -1444,36 +1444,36 @@ h4{
     }
 
     .feature p{
-        padding-right: 10%; 
+        padding-right: 10%;
         font-size: .9rem;
         line-height: 1.5;
         margin-bottom: 0%;
     }
-    
+
     .phone-box.column.third{
         width: 40%;
     }
-    
+
     .hero-text.column.two-thirds{
         width: 60%;
     }
-    
+
     .hero p{
         padding-right: 10%;
     }
-    
+
     .hero h3{
         font-size: 1.3rem;
         margin-top: 15%;
         margin-bottom: 2%;
     }
-    
+
     .phone-image{
         height: 400px;
         float: right;
         margin-top: 15%;
     }
-    
+
 }
 
 @media (max-width: 550px) {
@@ -1504,49 +1504,49 @@ h4{
         font-size: 14px;
         padding-top: 3px;
     }
-    
+
     .first-feature.column.nine-tenth{
         width: 40%;
         height: 70px;
     }
-    
+
     .following-feature.column.nine-tenth {
         width: 45%;
         height: 70px;
     }
-    
+
     .feature-right.column.half{
         width: 100%;
     }
-    
+
     .checkmark.column.tenth {
         width: 5%;
     }
-    
+
     .feature-two{
         margin-top: 5.5%;
     }
-    
+
     .mark-two{
         margin-top: 5.5%;
     }
-    
+
     .paper{
         height: 60%;
     }
-    
+
     .mark-three.checkmark.column.tenth {
         padding-left: 5%;
-    } 
-    
+    }
+
     .feature-three{
         padding-left: 6%;
     }
-    
+
     .paper.column.half{
         width: 100%;
         text-align: center;
-    } 
+    }
     .paper img{
         float: none;
         height: 100%;
@@ -1593,19 +1593,19 @@ h4{
     .paper{
         height: 67%;
     }
-    
+
     .contact p{
         z-index: 2;
         width:280px;
         margin-left:-140px;
         left:50%;
         top: 20%;
-        
+
 
         font-size: 16px;
         line-height: 20px;
     }
-    
+
     .phone-icon{
         width: 50px;
         position: absolute;
@@ -1654,8 +1654,8 @@ h4{
 
 
 @media (max-width: 540px) {
-    
-    
+
+
     .feature-right .first-feature h3{
         font-size: 12px;
     }
@@ -1663,7 +1663,7 @@ h4{
     .feature-right .following-feature h3{
         font-size: 12px;
     }
-    
+
     .paper h3{
         font-size: 14px;
         line-height: 1.2;
@@ -1673,39 +1673,39 @@ h4{
         font-size: 13px;
         line-height: 1.3;
     }
-    
+
     .feature img{
         margin-top: 10%;
         width:50px;
-    } 
-    
+    }
+
     .first-phone{
         display: none;
     }
-    
+
     .second-phone{
         display: block;
     }
-    
+
     .phone-box.column.third{
         width: 100%;
         text-align: center;
     }
-    
+
     .hero-text.column.two-thirds{
         width: 100%;
     }
-    
+
     .phone-image{
         height: 380px;
         float: none;
         margin-top: 2%;
     }
-    
+
     .hero{
         height: 80%;
     }
-    
+
     .hero p{
         padding-right: 0%;
         line-height: 1.2;
@@ -1713,7 +1713,7 @@ h4{
         padding-right: 5%;
         text-align: justify;
     }
-    
+
     .hero h3{
         font-size: 1.3rem;
         margin-top: 5%;
@@ -1724,7 +1724,7 @@ h4{
 
 
 @media (max-width: 650px) {
-    
+
     .sponsor h2{
         font-size: 1em;
     }
@@ -1736,7 +1736,7 @@ h4{
     .logo img{
         height: 50px;
     }
-    
+
     .footer p{
         font-size: .4rem;
         line-height: .6rem;
@@ -1745,9 +1745,9 @@ h4{
 }
 
 @media (max-width: 400px) {
-    
-    
-    
+
+
+
     .sponsor h2{
         font-size: .6rem;
     }
@@ -1755,13 +1755,13 @@ h4{
     .FAQ h2{
         font-size: .6em;
     }
-    
+
     .logo img{
         height: 30px;
         margin-top: 10%;
         margin-left: 5%;
     }
-    
+
     .logo{
         text-align: left;
         height: 50px;
@@ -1777,33 +1777,33 @@ h4{
         height: 50px;
         display: table;
     }
-    
+
     .footer p{
         font-size: .2rem;
         line-height: .7rem;
     }
-    
+
     .icon i{
-        text-align:center; 
+        text-align:center;
         vertical-align: middle;
-        display: table-cell; 
+        display: table-cell;
         font-size: 24px;
     }
-    
+
     .faq h2{
-       font-size: 18px;  
+       font-size: 18px;
     }
-    
+
     .phone-image{
         height: 300px;
         float: none;
         margin-top: 2%;
     }
-    
+
     .hero{
         height: 80%;
     }
-    
+
     .hero p{
         padding-right: 0%;
         line-height: 14px;
@@ -1811,9 +1811,9 @@ h4{
         padding-right: 2%;
         text-align: left;
         font-size: 12px;
-        
+
     }
-    
+
     .hero h3{
         font-size: 1rem;
         margin-top: 5%;
@@ -1821,11 +1821,11 @@ h4{
         text-align: center;
         margin-left: 0%;
     }
-    
+
     .feature img{
         margin-top: 5%;
         width:40px;
-    }   
+    }
 
    .feature h4{
        margin-top: 2%;
@@ -1833,20 +1833,20 @@ h4{
     }
 
     .feature p{
-        padding-right: 5%; 
+        padding-right: 5%;
         font-size: .8rem;
         line-height: 1.2;
         margin-bottom: 0%;
         margin-top: 1%;
     }
-    
+
     .container{
         margin-top: 25%;
         padding-left: 5%;
         padding-right: 2%;
     }
-    
-    
+
+
     .paper h3{
         font-size: 11px;
         line-height: 1.2;
@@ -1857,11 +1857,11 @@ h4{
         line-height: 1.3;
         top: 12%;
     }
-    
+
     .paper{
         height: 70%;
     }
-    
+
     .paper .icon{
         position: absolute;
         width: 24px;
@@ -1877,7 +1877,7 @@ h4{
         left: 16%;
         font-size: 24px;
     }
-    
+
     .feature-right .first-feature h3{
         font-size: 9px;
     }
@@ -1885,7 +1885,7 @@ h4{
     .feature-right .following-feature h3{
         font-size: 9px;
     }
-    
+
     .first-checkmark img{
         width: 12px;
         margin-top: 60%;
@@ -1913,63 +1913,63 @@ h4{
         font-size: 9px;
         padding-top: 3px;
     }
-    
+
     .first-feature.column.nine-tenth{
         width: 40%;
         height: 40px;
     }
-    
+
     .following-feature.column.nine-tenth {
         width: 45%;
         height: 40px;
     }
-    
+
     .feature-right.column.half{
         width: 100%;
     }
-    
+
     .checkmark.column.tenth {
         width: 5%;
     }
-    
+
     .feature-two{
         margin-top: 5.5%;
     }
-    
+
     .mark-two{
         margin-top: 5.5%;
     }
-    
-    
+
+
     .mark-three.checkmark.column.tenth {
         padding-left: 5%;
-    } 
-    
+    }
+
     .feature-three{
         padding-left: 6%;
     }
-    
-    
+
+
     .contact h3{
         z-index: auto;
-        width:auto; 
+        width:auto;
         font-size: 18px;
-        
+
         position: absolute;
         left: 0;
         right: 0;
         margin: auto
     }
-    
+
     .contact p{
         z-index: auto;
-        width:230px; 
-        
+        width:230px;
+
         position: absolute;
         left: 0;
         right: 0;
         margin: auto;
-        
+
 
         font-size: 14px;
         line-height: 18px;
@@ -2019,22 +2019,22 @@ h4{
         left: 27%;
         top: 65%;
     }
-    
+
     .contact h4{
         font-size: 16px;
     }
-    
+
     .others{
         height: 640px;
         background-color: rgba(40,109,168, .7);
         position: relative;
     }
-    
+
     .center-text{
         padding-left: 2%;
         padding-right: 2%;
     }
-    
+
     .testimonial-section{
         position: absolute;;
         height: 200px;
@@ -2100,18 +2100,18 @@ h4{
         display: table;
         height: 100%;
     }
-    
+
     .one-fifth.testimonial-nav{
         width: 35px;
     }
-    
+
     .testimonial-nav i{
         height: 30px;
         width: 30px;
         padding-top: 3%;
         padding-right: 3%;
     }
-    
+
     .center-text h1{
         font-size: 18px;
         margin-bottom: 0%;
@@ -2132,7 +2132,7 @@ h4{
         margin-bottom: 0%;
         margin-top: 0%;
     }
-    
+
     .testimony p{
         font-size: 13px;
         line-height: 18px;
@@ -2140,24 +2140,24 @@ h4{
         text-align: justify;
         padding-left: 5%;
     }
-    
+
     .subtitle p{
         text-align: center;
         margin-bottom: 0%;
         font-size: 16px;
     }
-    
+
     .person-one{
-        height: 250px;  
+        height: 250px;
         padding-right: 5%;
         padding-bottom: 0%;
         padding-top: 0%;
     }
-    
+
     .person-box.column.two-fifths{
         width: 100%;
         height: 250px;
-    } 
+    }
 
-   
+
 }
