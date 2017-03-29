@@ -1,4 +1,7 @@
-
+.synopsis {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 .column {
          padding-left: 1rem;
@@ -32,7 +35,7 @@
 
 p{
     text-align: left;
-    line-height: 29px;
+    line-height: 1.5;
     font-size: 1.2rem;
     font-weight: normal;
 }
@@ -48,9 +51,9 @@ h1{
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 h4{
@@ -79,7 +82,7 @@ button:hover {
 }
 
 .center-logo img{
-  width:450px;
+  width:400px;
   display:block;
   position:absolute;
   left:0;
@@ -98,12 +101,13 @@ button:hover {
   bottom: 30%;
   margin:auto;
   text-align: center;
-  font-size: 32px
+  font-size: 32px;
+    line-height: 1.5;
 }
 
 .hero-download img {
   position: absolute;
-  width: 200px;
+  width: 150px;
   display:block;
   position:absolute;
   left:0;
@@ -155,15 +159,18 @@ button:hover {
 .HIW-step p{
     text-align: center;
     line-height: 24px;
+    margin-top: 3%;
+    line-height: 1.5;
 }
 
 .hiw-phone img{
     height: 450px;
-    margin-bottom: 6%;
+    margin-bottom: 15%;
 }
 
 .HIW-step h3{
-    margin: 0%;
+    margin-bottom: 0%;
+    margin-top: 8%;
 }
 
 .phone-row{
@@ -171,7 +178,10 @@ button:hover {
 }
 
 .how-it-works h2{
-    margin-top: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .challenge img{
@@ -188,6 +198,7 @@ button:hover {
 
 .other-features p{
     text-align: center;
+    line-height: 1.5;
 }
 
 .other-features img{
@@ -262,7 +273,8 @@ button:hover {
 }
 
 .how-to-rewards p{
-    text-align: center
+    text-align: center;
+    line-height: 1.5;
 }
 
 .htr-left-img{
@@ -292,7 +304,7 @@ button:hover {
 
 .challenge-complete p{
     font-size: 12px;
-    line-height: 16px;
+    line-height: 1.5;
     font-weight: lighter;
     margin-top: 0%;
     opacity: .6;
@@ -339,6 +351,7 @@ button:hover {
     margin-top: 10%;
     margin-bottom: 0%;
     font-size: 18px;
+    line-height: 1.5;
 
 }
 
@@ -413,11 +426,14 @@ button {
     margin-bottom: 5%;
 }
 
+.sponsors{
+        margin-bottom: 10%;
+    }
+
 @media (max-width: 1300px) {
     .synopsis-text p{
-        font-size: 16px;
+        font-size: 18px;
         padding-right: 10%;
-        line-height: 24px;
     }
 }
 
@@ -470,16 +486,18 @@ button {
         height: 50px;
     }
 
-    .how-it-works p{
-        line-height: 20px;
-    }
-
     .act-text p{
         font-size: 10px;
     }
 }
 
 @media (max-width: 990px) {
+    
+        .HIW-step h3{
+            margin-bottom: 0%;
+            margin-top: 3%;
+    }
+    
     .recent-story-twitter.column.half{
         width: 100%;
     }
@@ -510,7 +528,6 @@ button {
 
     p {
         font-size: 14px;
-        line-height: 18px;
     }
 
     .sponsors p{
@@ -591,6 +608,7 @@ button {
 
     .HIW-step p{
         font-size: 18px;
+        margin-top: 1%;
     }
 
 }
@@ -633,7 +651,6 @@ button {
 
     .copyright p{
         font-size: 8px;
-        line-height: 12px;
     }
 
     .icon.column.third{
@@ -644,13 +661,19 @@ button {
         height: 100%;
     }
 
-    .synopsis-text h3{
+    .faded{
         margin: 0%;
         font-size: 24px;
     }
+    
+    
+    .big{
+        margin: 0%;
+        font-size: 26px;
+    }
 
     .synopsis-text p{
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .center-logo img{
@@ -664,6 +687,36 @@ button {
 }
 
 @media (max-width: 690px) {
+    .hero-download p{
+        font-size: 26px;
+        padding-left: 5%;
+        padding-right: 5%;
+        bottom: 30%;
+    }
+    .synopsis-phone.column.third {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 3%;
+    }
+
+    .synopsis-text.column.two-thirds{
+        width: 100%;
+
+    }
+
+    .synopsis-text{
+        text-align: center;
+    }
+
+    .synopsis-phone{
+        text-align: center;
+    }
+
+    .synopsis-phone img{
+        height: 100%;
+        width: auto;
+    }
+    
     .challenge-complete{
         right: 2%;
     }
@@ -675,11 +728,12 @@ button {
 
     .redeem-text p{
         font-size: 14px;
+            line-height: 1.2
     }
 
     .sponsors p{
         margin-top: 5%;
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .sponsors h4{
@@ -693,13 +747,17 @@ button {
     }
 
     .synopsis-text p{
-        font-size: 12px;
-        line-height: 16px;
+        font-size: 16px;
     }
 
 }
 
 @media (max-width: 600px) {
+    
+    .hero-download p{
+        bottom: 35%;
+    }
+    
     .challenge-box.column.fourth{
        width:100%;
     }
@@ -763,8 +821,10 @@ button {
         width: 42%;
     }
 
-    .synopsis-text h3{
-        font-size: 16px;
+    .faded{
+        font-size: 18px;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     .synopsis-text p{
@@ -776,37 +836,12 @@ button {
     }
 
     .nav-bar h2{
-        font-size: 12px;
+        font-size: 16px;
     }
-}
-
-@media (max-width: 530px) {
-    .synopsis-phone.column.third {
-        width: 100%;
-        height: 250px;
-        margin-bottom: 3%;
-    }
-
-    .synopsis-text.column.two-thirds{
-        width: 100%;
-
-    }
-
-    .synopsis-text{
-        text-align: center;
-    }
-
-    .synopsis-text p{
-        text-align:justify;
-    }
-
-    .synopsis-phone{
-        text-align: center;
-    }
-
-    .synopsis-phone img{
-        height: 100%;
-        width: auto;
+    
+    .big{
+        font-size: 20px;
+        margin-bottom: 5%;
     }
 }
 
@@ -824,11 +859,12 @@ button {
     }
 
     h2{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .how-it-works h3{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+        margin-bottom: 3%;
     }
 
     .how-it-works p{
@@ -873,6 +909,10 @@ button {
         display: table;
     }
 
+    .sponsors{
+        margin-bottom: 10%;
+    }
+    
     .sponsor{
         height: 50px;
         display: table;
@@ -906,12 +946,10 @@ button {
     .hero-download img {
         width: 100px;}
 
-    .hero-download p{
-        bottom: 25%;
-    }
+    
 
     .how-it-works p{
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .hiw-phone img{
@@ -925,11 +963,13 @@ button {
 
     .feature-text p{
         font-size: 12px;
+        line-height: 1.2;
     }
 
     .download-stickers img{
         width: 100%;
         height: auto;
+        margin-bottom: 10%;
     }
 
     .challenge-complete{
@@ -946,8 +986,7 @@ button {
     }
 
     .challenge-complete p{
-        font-size: 8px;
-        line-height: 12px;
+        font-size: 12px;
     }
 
     .htr-left-img{
@@ -965,6 +1004,8 @@ button {
 
     .icon-number {
         height: 40px;
+        margin-top: 10%;
+        margin-bottom: 5%;
     }
 
     .hero-image{

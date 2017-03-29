@@ -298,16 +298,19 @@ h4{
 .button-one:hover{
     font-size: 40px;
     color: white;
+    cursor: pointer;
 }
 
 .button-two:hover{
     font-size: 40px;
     color: white;
+    cursor: pointer;
 }
 
 .button-three:hover{
     font-size: 40px;
     color: white;
+    cursor: pointer;
 }
 
 .button-one.selected:hover{
