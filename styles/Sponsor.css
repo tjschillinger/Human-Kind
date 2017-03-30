@@ -1608,9 +1608,8 @@ h4{
 
 @media (max-width: 400px) {
 
-    .last-feat{
-        float: left;
-        margin-top: 10px;
+    .last-right{
+        margin-bottom: 100px;
     }
     
     .logo img{
@@ -1618,7 +1617,6 @@ h4{
         margin-top: 5%;
         margin-left: 10%;
     }  margin-left: 5%;
-    }
 
     .logo{
         text-align: left;
@@ -2016,6 +2014,11 @@ h4{
     .person-box.column.two-fifths{
         width: 100%;
         height: 250px;
+    }
+
+    .last-feat{
+        float: left;
+        padding-right: 0%;
     }
 
 
