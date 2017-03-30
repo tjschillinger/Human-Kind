@@ -1655,7 +1655,6 @@ h4{
         padding-right: 2%;
         text-align: left;
         font-size: 14px;
-        font-weight: lighter;
 
     }
 
@@ -1685,7 +1684,6 @@ h4{
         margin-bottom: 15%;
         margin-top: 1%;
         font-weight: 1.5px;
-        font-weight: lighter;
     }
 
     .container{
@@ -1717,7 +1715,7 @@ h4{
     }
     
     .paper{
-        height: 74%;
+        height: 70%;
     }
 
     .paper .icon{
