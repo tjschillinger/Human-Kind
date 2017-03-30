@@ -1608,18 +1608,6 @@ h4{
 
 @media (max-width: 400px) {
 
-    .hero{
-        margin-top: 60px;
-    }
-
-    .sponsor h2{
-        font-size: .6rem;
-    }
-
-    .FAQ h2{
-        font-size: .6em;
-    }
-
     .logo img{
         height: 50px;
         margin-top: 5%;
@@ -1633,15 +1621,6 @@ h4{
         display: table;
     }
 
-    .sponsor{
-        height: 50px;
-        display: table;
-    }
-
-    .FAQ {
-        height: 50px;
-        display: table;
-    }
 
     .footer p{
         font-size: .2rem;
@@ -1662,29 +1641,31 @@ h4{
     .phone-image{
         height: 300px;
         float: none;
-        margin-top: 2%;
+        margin-top: 5%;
     }
 
     .hero{
-        height: 80%;
+        height: 100%;
     }
 
     .hero p{
         padding-right: 0%;
-        line-height: 14px;
+        line-height: 1.5;
         padding-left: 1%;
         padding-right: 2%;
         text-align: left;
-        font-size: 12px;
+        font-size: 14px;
+        font-weight: lighter;
 
     }
 
     .hero h3{
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin-top: 5%;
         margin-bottom: 2%;
         text-align: center;
         margin-left: 0%;
+        font-weight: bold;
     }
 
     .feature img{
@@ -1699,32 +1680,44 @@ h4{
 
     .feature p{
         padding-right: 5%;
-        font-size: .8rem;
-        line-height: 1.2;
-        margin-bottom: 0%;
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 15%;
         margin-top: 1%;
+        font-weight: 1.5px;
+        font-weight: lighter;
     }
 
     .container{
-        margin-top: 25%;
+        margin-top: 35%;
         padding-left: 5%;
         padding-right: 2%;
     }
 
+    .join{
+        height: 190%;
+    }
 
     .paper h3{
-        font-size: 11px;
-        line-height: 1.2;
+        font-size: 18px;
+        line-height: 1.1;
+        text-align: left;
+        padding-right: 9%;
+        top: 5%;
     }
 
     .paper p{
-        font-size: 10px;
-        line-height: 1.3;
+        font-size: 14px;
+        line-height: 1.5;
         top: 12%;
     }
 
+    .paper img{
+        width: 95%;
+    }
+    
     .paper{
-        height: 70%;
+        height: 74%;
     }
 
     .paper .icon{
@@ -1738,17 +1731,9 @@ h4{
     .paper h1{
         position: absolute;
         color: rgba(205,83,96, .7);
-        top: 3%;
+        top: 2.5%;
         left: 16%;
         font-size: 24px;
-    }
-
-    .feature-right .first-feature h3{
-        font-size: 9px;
-    }
-
-    .feature-right .following-feature h3{
-        font-size: 9px;
     }
 
     .first-checkmark img{
@@ -1767,15 +1752,15 @@ h4{
         margin-top: 16%;
         padding-right: 10%;
         line-height: 1.1;
-        font-size: 9px;
+        font-size: 12px;
         margin-bottom: 0%;
     }
 
     .feature-right .following-feature h3{
         margin-top: 0%;
         padding-right: 5%;
-        line-height: 1.1;
-        font-size: 9px;
+        line-height: 1.4;
+        font-size: 12px;
         padding-top: 3px;
     }
 
@@ -1854,6 +1839,11 @@ h4{
         top: 58%;
     }
 
+    .following-feature.column.nine-tenth {
+        width: 45%;
+        height: auto;
+    }
+
     .twitter-icon{
         width: 30px;
         position: absolute;
@@ -1890,7 +1880,7 @@ h4{
     }
 
     .others{
-        height: 640px;
+        height: 700px;
         background-color: rgba(40,109,168, .7);
         position: relative;
     }
@@ -1995,7 +1985,7 @@ h4{
         color: white;
         font-size: 24px;
         margin-bottom: 0%;
-        margin-top: 0%;
+        margin-top: 5%;
     }
 
     .testimony p{

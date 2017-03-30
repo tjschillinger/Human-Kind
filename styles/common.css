@@ -89,7 +89,7 @@ color:#CD5360; border-radius: 15px; }
 
 
 .dropdown:hover .dropbtn {
-    background-color: #D6665A;
+    background-color: #CD5360;
 }
 
 
@@ -218,6 +218,11 @@ h4{
 
 
 @media (max-width: 400px) {
+    
+    .hero{
+        margin-top: 60px;
+    }
+    
     .nav-bar{
         display: none;
     }

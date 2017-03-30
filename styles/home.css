@@ -900,6 +900,11 @@ button {
         margin-left: 10%;
     }
 
+    .hero-download p {
+    font-size: 22px;
+        bottom: 27%;
+    }
+    
     .logo{
         text-align: left;
         height: 50px;
