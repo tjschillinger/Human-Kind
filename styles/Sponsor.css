@@ -1608,7 +1608,9 @@ h4{
 
 @media (max-width: 400px) {
 
-
+    .hero{
+        margin-top: 60px;
+    }
 
     .sponsor h2{
         font-size: .6rem;
@@ -1619,9 +1621,10 @@ h4{
     }
 
     .logo img{
-        height: 30px;
-        margin-top: 10%;
-        margin-left: 5%;
+        height: 50px;
+        margin-top: 5%;
+        margin-left: 10%;
+    }  margin-left: 5%;
     }
 
     .logo{

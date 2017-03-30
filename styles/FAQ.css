@@ -311,6 +311,10 @@ button:hover {
 
 @media (max-width: 400px) {
 
+    .hero{
+        margin-top: 60px;
+    }
+    
     .hero h1{
         padding-left: 10px;
         padding-right: 10px;
@@ -325,9 +329,9 @@ button:hover {
     }
 
     .logo img{
-        height: 30px;
-        margin-top: 10%;
-        margin-left: 5%;
+        height: 50px;
+        margin-top: 5%;
+        margin-left: 10%;
     }
 
     .logo{
