@@ -1607,10 +1607,6 @@ h4{
 }
 
 @media (max-width: 400px) {
-
-    .last-right{
-        margin-bottom: 100px;
-    }
     
     .logo img{
         height: 50px;
@@ -1753,7 +1749,7 @@ h4{
         margin-top: 16%;
         padding-right: 10%;
         line-height: 1.1;
-        font-size: 12px;
+        font-size: 11px;
         margin-bottom: 0%;
     }
 
@@ -1761,7 +1757,7 @@ h4{
         margin-top: 0%;
         padding-right: 5%;
         line-height: 1.4;
-        font-size: 12px;
+        font-size: 11px;
         padding-top: 3px;
         padding-bottom: 15px;
     }
@@ -2014,11 +2010,6 @@ h4{
     .person-box.column.two-fifths{
         width: 100%;
         height: 250px;
-    }
-
-    .last-feat{
-        float: left;
-        padding-right: 0%;
     }
 
 
