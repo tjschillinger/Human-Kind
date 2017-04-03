@@ -53,7 +53,7 @@ a{
     cursor: pointer;
 }
 
-.dropbtn.active{
+.active{
     background-color: #CD5360;
 }
 
@@ -87,10 +87,6 @@ a{
 .dropdown-content a.selected {
     color:#CD5360;
 }
-
-
-.dropdown-content a:hover {background-color: #f1f1f1; font-weight: bolder;
-color:#CD5360; border-radius: 15px; }
 
 .hidden{
     display: none;

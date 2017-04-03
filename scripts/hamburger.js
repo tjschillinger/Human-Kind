@@ -1,7 +1,6 @@
 $(".dropdown").click(function(e){
     $(".dropdown-content").show();
     $(".dropbtn").toggleClass("active");
-     e.stopPropagation();
 });
 
 $(".dropdown").click(function(e){
@@ -10,5 +9,5 @@ $(".dropdown").click(function(e){
 
 $(document).click(function(){
     $(".dropdown-content").hide();
-    $(".dropbtn").toggleClass("active");
+    $(".dropbtn").removeClass("active");
 });
