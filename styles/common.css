@@ -47,10 +47,14 @@ a{
 
 .dropbtn {
     color: white;
-    padding: 19px;
-    font-size: 14px;
+    padding: 16px;
+    font-size: 16px;
     border: none;
     cursor: pointer;
+}
+
+.dropbtn.active{
+    background-color: #CD5360;
 }
 
 .dropdown {
@@ -62,7 +66,7 @@ a{
 
 .dropdown-content {
     border-radius: 0 0 0 15px;
-    display: none;
+    display: block;
     position: absolute;
     right: 0;
     background-color: #f9f9f9;
@@ -70,6 +74,7 @@ a{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
+
 
 .dropdown-content a {
     font-family: Ubuntu, Helvetica, Arial, sans-serif;
@@ -79,19 +84,17 @@ a{
     display: block;
 }
 
+.dropdown-content a.selected {
+    color:#CD5360;
+}
+
+
 .dropdown-content a:hover {background-color: #f1f1f1; font-weight: bolder;
 color:#CD5360; border-radius: 15px; }
 
-
-.dropdown:hover .dropdown-content {
-    display: block;
+.hidden{
+    display: none;
 }
-
-
-.dropdown:hover .dropbtn {
-    background-color: #CD5360;
-}
-
 
 p{
     Font-family: Ubuntu, Helvetica, Arial, sans-serif;
@@ -110,10 +113,6 @@ h2{
 
 h4{
     Font-family: Ubuntu, Helvetica, Arial, sans-serif;
-}
-
-.hidden{
-    display: none;
 }
 
 .nav-bar h2:hover{
