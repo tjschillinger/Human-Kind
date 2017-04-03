@@ -1,8 +1,14 @@
-$(".dropdown").click(function(){
-    $(".dropdown-content").toggleClass("hidden");
+$(".dropdown").click(function(e){
+    $(".dropdown-content").show();
     $(".dropbtn").toggleClass("active");
+     e.stopPropagation();
 });
 
-$(".dropdown-content").click(function(){
-    $(".dropdown-content").toggleClass("hidden");
+$(".dropdown").click(function(e){
+    e.stopPropagation();
+});
+
+$(document).click(function(){
+    $(".dropdown-content").hide();
+    $(".dropbtn").toggleClass("active");
 });
