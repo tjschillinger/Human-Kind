@@ -8,6 +8,10 @@ body, html {
    height:100%
 }
 
+.column.third h2{
+    text-align: right;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -130,9 +134,8 @@ h4{
 }
 
 .logo{
-    text-align: left;
     height: 70px;
-    display: table;
+    position:relative;
 }
 
 .sponsor{
@@ -157,11 +160,11 @@ h4{
 
 .logo img{
     height: 50px;
-    width: auto;
-    display: table-cell;
-    vertical-align: middle;
-    margin-left: 10%;
-    margin-top: 2%;
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    left:5%;
 }
 
 .footer{

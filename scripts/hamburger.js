@@ -1,13 +1,12 @@
 $(".dropdown").click(function(e){
     $(".dropdown-content").show();
-    $(".dropbtn").toggleClass("active");
+    $(".dropbtn").addClass("active");
 });
 
-$(".dropdown").click(function(e){
-    e.stopPropagation();
-});
-
-$(document).click(function(){
+$(document).on('click', function(event) {
+  if (!$(event.target).closest('.dropbtn').length) {
     $(".dropdown-content").hide();
     $(".dropbtn").removeClass("active");
+  }
 });
+
