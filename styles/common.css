@@ -49,48 +49,76 @@ a{
     display: none;
 }
 
-.dropbtn {
-    color: white;
-    padding: 19px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+.fa.fa-navicon{
+    font-size: 36px;
+}
+
+ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+ul > li {
+    float: right;
+    height:70px;
+    display: table;
+}
+
+ul > li i.fa.fa-navicon{
+    display: table-cell;
+    vertical-align: middle;
+    width: 80px;
+}
+
+ul > li a {
+    color: black;
+    line-height: 40px;
+    height:40px;
+    display:block;
+    padding:0px 10px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+ul > li a:hover {
+    color:  #CD5360;
+    font-weight: bolder;
 }
 
 .active{
     background-color: #CD5360;
 }
 
-.dropdown {
-    position: fixed;
-    display: block;
-    right: 0px;
-}
-
-
-.dropdown-content {
-    border-radius: 0 0 0 15px;
-    display: block;
+ul li ul {
+    display: none;
     position: absolute;
-    right: 0;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    background: #FDFDFD;
+    top:70px;
+    width: 180px;
+    right: 0px;
+    border-radius: 0  0  0 15px;
+    
+    -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+}
+
+ul li ul li {
+    float: none;
+    line-height: 40px;
+    height: 70px;
+    width: 100%;
+    display: table;
 }
 
 
-.dropdown-content a {
-    font-family: Ubuntu, Helvetica, Arial, sans-serif;
-    color: black;
-    padding: 25px 25px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a.selected {
-    color:#CD5360;
-}
 
 .hidden{
     display: none;
