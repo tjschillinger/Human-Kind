@@ -32,6 +32,7 @@ h2 a{
 .column.nine-tenth { width: 90%; }
 .column.three-fifths{width: 60%;}
 .column.two-fifths{width: 40%;}
+.column.fifth{width: 20%;}
 
 .fa.fa-navicon.dropbtn{
     font-size: 32px;
@@ -178,7 +179,11 @@ h4{
 
 .sponsor h2{
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: middle;padding-right: 5%;  
+}
+
+.sponsor h2, a{
+    padding-right: 5%;  
 }
 
 .FAQ h2{
@@ -228,6 +233,10 @@ h4{
 .faq h2{
     vertical-align: middle;
     display: table-cell;
+}
+
+.faq h2, a{
+    float: right;
 }
 
 .icon{
