@@ -66,7 +66,7 @@ h4{
 }
 
 .feature img{
-    margin-top: 30%;
+    margin-top: 50%;
     width:75px;
 }
 
@@ -109,7 +109,7 @@ h4{
 .paper h1{
     position: absolute;
     color: rgba(205,83,96, .7);
-    top: 2.5%;
+    top: 5%;
     left: 33%;
     font-size: 68px;
 }
@@ -379,7 +379,7 @@ h4{
     .paper h1{
         position: absolute;
         color: rgba(205,83,96, .7);
-        top: 2%;
+        top: 4%;
         left: 33%;
         font-size: 64px;
     }
@@ -465,7 +465,7 @@ h4{
     .paper h1{
         position: absolute;
         color: rgba(205,83,96, .7);
-        top: 3%;
+        top: 5%;
         left: 24%;
         font-size: 58px;
     }
@@ -498,7 +498,7 @@ h4{
     }
 
     .feature img{
-        margin-top: 30%;
+        margin-top: 50%;
         width:75px;
     }
 
@@ -768,7 +768,7 @@ h4{
     .paper h1{
         position: absolute;
         color: rgba(205,83,96, .7);
-        top: 2.5%;
+        top: 4%;
         left: 18%;
         font-size: 48px;
     }
@@ -819,7 +819,7 @@ h4{
     }
 
     .feature img{
-        margin-top: 30%;
+        margin-top: 50%;
         width:50px;
     }
 
@@ -1063,7 +1063,7 @@ h4{
     .paper h1{
         position: absolute;
         color: rgba(205,83,96, .7);
-        top: 4%;
+        top: 6%;
         left: 15%;
         font-size: 36px;
     }
@@ -1107,7 +1107,7 @@ h4{
     }
 
     .feature img{
-        margin-top: 30%;
+        margin-top: 50%;
         width:50px;
     }
 
@@ -1427,7 +1427,7 @@ h4{
     .paper h1{
         position: absolute;
         color: rgba(205,83,96, .7);
-        top: 2%;
+        top: 4%;
         left: 16%;
         font-size: 28px;
     }
